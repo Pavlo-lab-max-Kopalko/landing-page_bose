@@ -1,5 +1,6 @@
 .soundbars {
   padding-top: 48px;
+
   @include page-grid;
 
   @include on-tablet {
