@@ -41,7 +41,7 @@
   }
 
   &__photo {
-    @include hover(transform, scale(1.07));
+    @include hover(transform, scale($little-scale));
 
     position: absolute;
     width: 100%;
@@ -59,13 +59,13 @@
   &__button {
     width: 100%;
     display: grid;
-    color: #fff;
+    color: $white;
     text-align: center;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 27px;
-    background-color: #f98921;
+    background-color: $orange;
     border: 1px solid transparent;
     border-radius: 8px;
     justify-content: center;
@@ -87,12 +87,12 @@
   }
 
   &__button:hover {
-    background-color: #1b2129;
+    background-color: $main-text-color;
     cursor: pointer;
   }
 
   &__button:active {
-    background-color: #010810;
+    background-color: $second-main-background-color;
   }
 }
 

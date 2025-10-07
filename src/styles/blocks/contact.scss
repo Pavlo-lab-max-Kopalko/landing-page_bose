@@ -12,23 +12,15 @@
   }
 
   &__date {
-    // margin-bottom: 16px;
-
     @include onDesktop {
       grid-column: span 6;
     }
   }
 
-  // &__field {
-  //   grid-column: span 6;
-  // }
-
   &__name,
   &__emaill,
   &__message {
-    // grid-column: span 6;
-
-    color: #7e7e83;
+    color: $input-color-text;
     font-family: inherit;
     font-size: 14px;
     font-weight: 400;
@@ -60,10 +52,10 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    color: #fff;
+    color: $white;
 
     line-height: 27px;
-    background-color: #f98921;
+    background-color: $orange;
     border: 1px solid transparent;
     border-radius: 8px;
 
@@ -90,11 +82,11 @@
   }
 
   &__send:hover {
-    background-color: #1b2129;
+    background-color: $main-text-color;
   }
 
   &__send:focus {
-    background-color: #010810;
+    background-color: $second-main-background-color;
   }
 
   &__name:hover,
@@ -106,7 +98,7 @@
   &__name:focus,
   &__emaill:focus,
   &__message:focus {
-    border: 2px solid #f98921;
+    border: 2px solid $orange;
     font-family: inherit;
     outline: none;
   }
@@ -114,20 +106,20 @@
   &__name::placeholder,
   &__emaill::placeholder,
   &__message::placeholder {
-    color: #7e7e83;
+    color: $input-color-text;
   }
 
   &__name:focus::-webkit-input-placeholder,
   &__emaill:focus::-webkit-input-placeholder,
   &__message:focus::-webkit-input-placeholder {
-    color: #1b2129;
+    color: $main-text-color;
     font-family: inherit;
   }
 
   &__name:hover::-webkit-input-placeholder,
   &__emaill:hover::-webkit-input-placeholder,
   &__message:hover::-webkit-input-placeholder {
-    color: #1b2129;
+    color: $main-text-color;
     font-family: inherit;
   }
 
@@ -155,10 +147,8 @@
     color: #191919;
     margin-bottom: 24px;
     text-decoration: none;
-    grid-column: 8 / -1;
 
-    @include hover(transform, scale(1.07));
-
+    @include hover(transform, scale($little-scale));
   }
 
   &__references {

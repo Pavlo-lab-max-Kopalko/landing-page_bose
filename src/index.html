@@ -34,10 +34,6 @@
                 class="top-bar__logo">
             </a>
             <div class="top-bar__icons">
-              <!-- <div class="top-bar__numbers">
-                <div class="icon-number">+1 234 5555-55-55</div>
-                <a href="tel:+1 234 5555-55-55" class="icon icon--phone"></a>
-              </div> -->
               <a href="tel:+1 234 5555-55-55" class="icon icon--phone"></a>
               <a href="#menu" class="icon icon--menu"></a>
             </div>
@@ -213,7 +209,7 @@
               </div>
               <h3 class="category__title">Smart Home</h3>
 
-              <button href="#buy" class="category__button">View all</button>
+              <button class="category__button">View all</button>
             </article>
           </div>
         </section>
@@ -256,7 +252,7 @@
               method="get"
               data-qa="big"
             >
-              <label for="#" class="contact__field">
+              <label class="contact__field">
                 <input
                   type="text"
                   class="contact__name"
@@ -264,7 +260,7 @@
                   required
                 >
               </label><br>
-              <label for="#" class="contact__field">
+              <label class="contact__field">
                 <input
                   type="email"
                   class="contact__emaill"
@@ -272,7 +268,7 @@
                   required
                 >
               </label><br>
-              <label for="#" class="contact__field">
+              <label class="contact__field">
                 <textarea
                   type="text"
                   class="contact__message"
@@ -282,7 +278,7 @@
                 ></textarea>
               </label>
 
-              <label for="#">
+              <label>
                 <button type="submit" class="contact__send">Send</button>
               </label>
 
@@ -290,9 +286,17 @@
 
             <div class="contact__references">
               <div class="contact__info">Phone</div>
-              <a href="tel:+1 234 5555-55-55" class="contact__deteils">+1 234 5555-55-55</a>
+              <a
+                href="tel:+1 234 5555-55-55"
+                class="contact__deteils"
+                target="_blank"
+              >+1 234 5555-55-55</a>
               <div class="contact__info">Email</div>
-              <a href="mailto: abc@example.com" class="contact__deteils">hello@nothing.com</a>
+              <a
+                href="mailto: abc@example.com"
+                class="contact__deteils"
+                target="_blank"
+              >hello@nothing.com</a>
               <div class="contact__info">Address</div>
               <a
                 href="https://maps.app.goo.gl/nphLEvyLtRWdo7GA9"

@@ -23,7 +23,7 @@
     right: 0;
     top: 0;
 
-    transition: all 0.3s;
+    transition: all $effectDuration;
     opacity: 0;
     transform: translateX(-100%);
     pointer-events: none;
@@ -35,3 +35,6 @@
     }
   }
 }
+
+
+
