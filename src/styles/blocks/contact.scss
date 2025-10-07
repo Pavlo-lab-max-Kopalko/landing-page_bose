@@ -77,7 +77,7 @@
     }
 
     text-decoration: none;
-    transition-duration: $effectDuration;
+    transition-duration: $effect-duration;
     transition-property: background-color;
   }
 
@@ -109,16 +109,16 @@
     color: $input-color-text;
   }
 
-  &__name:focus::-webkit-input-placeholder,
-  &__emaill:focus::-webkit-input-placeholder,
-  &__message:focus::-webkit-input-placeholder {
+  &__name:focus::placeholder,
+  &__emaill:focus::placeholder,
+  &__message:focus::placeholder {
     color: $main-text-color;
     font-family: inherit;
   }
 
-  &__name:hover::-webkit-input-placeholder,
-  &__emaill:hover::-webkit-input-placeholder,
-  &__message:hover::-webkit-input-placeholder {
+  &__name:hover::placeholder,
+  &__emaill:hover::placeholder,
+  &__message:hover::placeholder {
     color: $main-text-color;
     font-family: inherit;
   }

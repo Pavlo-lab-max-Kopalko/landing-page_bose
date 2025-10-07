@@ -12,6 +12,7 @@
 .category {
   &__photos {
     @include pageGrid;
+
     margin-bottom: 16px;
   }
   &__link {
@@ -82,7 +83,7 @@
       width: 100%;
     }
 
-    transition-duration: $effectDuration;
+    transition-duration: $effect-duration;
     transition-property: background-color;
   }
 
