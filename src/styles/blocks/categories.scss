@@ -3,7 +3,7 @@
     display: grid;
     row-gap: 40px;
 
-    @include onTablet {
+    @include on-tablet {
       row-gap: 64px;
     }
   }
@@ -11,7 +11,7 @@
 
 .category {
   &__photos {
-    @include pageGrid;
+    @include page-grid;
 
     margin-bottom: 16px;
   }
@@ -20,21 +20,21 @@
     height: 0;
     padding-bottom: 100%;
     &--first {
-      @include onTablet {
+      @include on-tablet {
         grid-column: span 3;
       }
 
-      @include onDesktop {
+      @include on-desktop {
         grid-column: span 6;
       }
     }
 
     &--second {
-      @include onTablet {
+      @include on-tablet {
         grid-column: span 3;
       }
 
-      @include onDesktop {
+      @include on-desktop {
         grid-column: span 6;
       }
     }
@@ -78,7 +78,7 @@
     text-decoration: none;
     outline: none;
 
-    @include onDesktop {
+    @include on-desktop {
       max-width: 324px;
       width: 100%;
     }
@@ -102,7 +102,7 @@
   padding-top: 96px;
   padding-bottom: 47px;
 
-  @include onTablet {
+  @include on-tablet {
     padding-top: 120px;
     padding-bottom: 56px ;
   }

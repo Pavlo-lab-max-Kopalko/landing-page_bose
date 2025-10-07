@@ -8,7 +8,7 @@
 
   @include hover(transform, scale($big-scale));
 
-  @include onTablet {
+  @include on-tablet {
     height: 32px;
     width: 32px;
     background: no-repeat;
@@ -19,7 +19,7 @@
     background-image: url(../images/icons/icon-phone.png);
   }
 
-  @include onDesktop {
+  @include on-desktop {
     &--phone:hover::before {
       position: absolute;
       color: black;

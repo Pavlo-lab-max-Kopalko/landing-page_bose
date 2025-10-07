@@ -6,7 +6,7 @@
     padding-top: 96px;
     display: block;
 
-    @include onTablet {
+    @include on-tablet {
       padding-top: 120px;
     }
   }
@@ -16,7 +16,7 @@
     row-gap: 96px;
     padding-bottom: 64px;
 
-    @include onTablet {
+    @include on-tablet {
       padding-bottom: 120px;
       row-gap: 120px;
     }

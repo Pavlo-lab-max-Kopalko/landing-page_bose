@@ -2,17 +2,17 @@
   &__contact-place {
     margin-bottom: 64px;
 
-    @include onTablet {
+    @include on-tablet {
       margin-bottom: 120px;
     }
 
-    @include onDesktop {
-      @include pageGrid;
+    @include on-desktop {
+      @include page-grid;
     }
   }
 
   &__date {
-    @include onDesktop {
+    @include on-desktop {
       grid-column: span 6;
     }
   }
@@ -68,11 +68,11 @@
     margin-top: 16px;
     margin-bottom: 48px;
 
-    @include onTablet {
+    @include on-tablet {
       margin-bottom: 80px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       margin-bottom: 120px;
     }
 
@@ -156,7 +156,7 @@
     margin-bottom: 48px;
     grid-column: 8 / 10;
 
-    @include onTablet {
+    @include on-tablet {
       margin-bottom: 120px;
     }
   }
