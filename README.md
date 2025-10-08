@@ -5,7 +5,6 @@ Live website expirience: https://pavlo-lab-max-kopalko.github.io/landing-page_bo
 The design layout we realised: https://www.figma.com/design/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?node-id=6817-211&p=f
 
 Technologies used:
-Core:
 
 Development
   Core:
